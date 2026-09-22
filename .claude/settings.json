@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -m pip install google-generativeai -q)",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -c \"import google.generativeai; print\\('OK', google.generativeai.__version__\\)\")",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -m pip install google-genai -q)",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -c \"import google.genai; print\\('google-genai OK', google.genai.__version__\\)\")",
+      "Bash(dir \"d:\\\\DSE_Y4\\\\FP\\\\Diabetes\\\\notebooks\")",
+      "Bash('C:\\\\Program Files\\\\Python313\\\\python.exe' -c ' *)",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -m pip show python-dotenv streamlit)",
+      "Bash(findstr \"Name:\")",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -c \"import dotenv, streamlit; print\\('OK'\\)\")",
+      "Bash(python -c *)",
+      "Bash(python report/generate_report.py)",
+      "Bash(python -m py_compile app.py)",
+      "Bash(find . -maxdepth 3 -name \"config.toml\" -path \"*streamlit*\")",
+      "Bash(ls -la demo/.streamlit/)",
+      "Bash(ls -la .streamlit/)",
+      "Bash(ls -la ~/.streamlit/)",
+      "Bash(awk -F= '{ if \\($1 ~ /KEY|TOKEN|SECRET/\\) { print $1\"=\"substr\\($2,1,6\\)\"... \\(\"length\\($2\\)\" chars\\)\" } else print }' .env)",
+      "Bash(./brfss_env/Scripts/python.exe -c ' *)",
+      "Bash(python -m py_compile demo/app.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(python \"C:/Users/M/AppData/Local/Temp/claude/d--DSE-Y4-FP-Diabetes/79a7a424-271b-4d14-ada9-c53bddc06d4c/scratchpad/revise.py\")",
+      "Bash(python qa_fix.py)",
+      "Bash(rm -f '~$'*.docx)",
+      "Bash(ls -la '~$'*)",
+      "Bash(python -c \"import docx; d=docx.Document\\('Explainable AI for Diabetes Risk Prediction and Actionable Insights_Report\\(1\\).docx'\\); print\\('docx OK, paras', len\\(d.paragraphs\\), 'tables', len\\(d.tables\\)\\)\")"
+    ]
+  }
+}

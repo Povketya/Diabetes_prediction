@@ -1,0 +1,6 @@
+Metric,Value,Meaning
+Fidelity,0.191,LIME matches ensemble predictions (closer to 1.0 = better)
+Faithfulness,0.844,Removing top features changes prediction (higher = better)
+Sparsity,16.9,Avg features per explanation (lower = simpler)
+Stability,4.57e-04,Explanation difference on same input (closer to 0 = more stable)
+Consistency,0.6,SHAP and LIME agree on top features (closer to 1 = better)

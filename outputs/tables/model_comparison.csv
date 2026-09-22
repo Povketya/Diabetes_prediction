@@ -1,0 +1,5 @@
+Model,Val ROC-AUC,Test Accuracy,Test ROC-AUC,Precision,Recall,F1
+Random Forest,0.831,74.79,0.822,0.733,0.792,0.762
+XGBoost,0.833,75.3,0.827,0.736,0.801,0.767
+LightGBM,0.83,75.13,0.824,0.736,0.797,0.765
+Ensemble,0.834,75.23,0.826,0.736,0.8,0.766

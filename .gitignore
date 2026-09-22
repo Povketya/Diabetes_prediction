@@ -1,0 +1,8 @@
+brfss_env/
+newdata/
+demo/
+*.pkl
+*.mp4
+.env
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,15 @@
+Feature,Diabetes % (absent),Diabetes % (present),Difference (pp)
+HeartDiseaseorAttack,12.0,33.0,21.0
+DiffWalk,10.5,30.7,20.2
+Stroke,13.2,31.8,18.6
+HighBP,6.0,24.4,18.4
+HighChol,8.0,22.0,14.0
+CholCheck,2.5,14.4,11.8
+Smoker,12.1,16.3,4.2
+NoDocbcCost,13.6,17.5,3.9
+AnyHealthcare,11.5,14.1,2.6
+Sex,13.0,15.2,2.2
+Fruits,15.8,12.9,-2.9
+Veggies,18.0,13.0,-5.0
+HvyAlcoholConsump,14.4,5.8,-8.6
+PhysActivity,21.1,11.6,-9.5
