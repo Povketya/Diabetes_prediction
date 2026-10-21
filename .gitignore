@@ -6,5 +6,23 @@ demo/
 .env
 __pycache__/
 .ipynb_checkpoints/
+# Research reports and presentations
 /Slides/
 /report/
+
+# Local editor and AI settings
+/.claude/
+/.vscode/
+
+# Generated training logs
+catboost_info/
+
+# Virtual environments
+/brfss_env/
+/venv/
+/.venv/
+
+# Python and Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
