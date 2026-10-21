@@ -6,3 +6,5 @@ demo/
 .env
 __pycache__/
 .ipynb_checkpoints/
+/Slides/
+/report/
