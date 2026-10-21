@@ -26,3 +26,12 @@ catboost_info/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# Duplicate datasets in project root
+/diabetes_012_health_indicators_BRFSS2015.csv
+/diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+/diabetes_binary_health_indicators_BRFSS2015.csv
+
+# Unnecessary root scripts
+/check_pkgs.py
+/ck.py
+/diabetes_prediction.py
